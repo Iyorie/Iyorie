@@ -2,11 +2,11 @@
 
 <img src="assets/banner.svg" alt="Iyorie.reverie — Roblox Developer, Luau and C++" width="100%">
 
-`Roblox Developer` · `Luau` · `C++`
+`Roblox Developer` · `Luau` · `C++, on purpose`
 
 [skills](#skills) · [stack](#stack) · [about](#about) · [faq](#faq) · [reach](#reach)
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 I build things as a hobby,, usually complex projects I get way too excited about and then scrap right after finishing. Still a perfectionist about it. Nothing really feels "done."
 
@@ -14,11 +14,16 @@ I build things as a hobby,, usually complex projects I get way too excited about
 
 <h3 id="stack">◆ stack</h3>
 
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Lua](https://img.shields.io/badge/-Luau-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Roblox](https://img.shields.io/badge/-Roblox%20Studio-000000?style=flat-square&logo=roblox&logoColor=white)
+
 ```luau
 local dev = {
     name   = "Iyorie.reverie",
     role   = "Roblox Developer",
-    stack  = { "Luau", "C++", "???" },
+    stack  = { "Luau", "C++", "JavaScript", "???" },
     status = "luvluvsz.. zzz",
 }
 
@@ -83,6 +88,10 @@ coding since 2022 · [Discord](https://discordapp.com/users/963993136168849418) 
 
 <sub>status: <!--STATUS:START-->luvluvsz.. zzz<!--STATUS:END--></sub>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
+
+<p align="center">
+  <img src="assets/character.png" width="420" alt="">
+</p>
 
 <sub>lyorie.nihil x Cinn ★ Roblox Developer</sub>
