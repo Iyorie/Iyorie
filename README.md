@@ -1,7 +1,8 @@
 <a name="top"></a>
-<h2 align="left">Iyorie.reverie <sub><i>(Cinn)</i></sub></h2>
 
-`Roblox Developer` · `Luau` · `C++, on purpose`
+<img src="assets/banner.svg" alt="Iyorie.reverie — Roblox Developer, Luau and C++" width="100%">
+
+`Roblox Developer` · `Luau` · `C++`
 
 [skills](#skills) · [stack](#stack) · [about](#about) · [faq](#faq) · [reach](#reach)
 
@@ -79,6 +80,8 @@ No. If that changes, contact me on Discord.
 <h3 id="reach">◆ reach</h3>
 
 coding since 2022 · [Discord](https://discordapp.com/users/963993136168849418) `._math.asin` · [Roblox](https://www.roblox.com/users/5300801005/profile)
+
+<sub>status: <!--STATUS:START-->luvluvsz.. zzz<!--STATUS:END--></sub>
 
 ---
 
