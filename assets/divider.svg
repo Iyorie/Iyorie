@@ -1,0 +1,24 @@
+<svg viewBox="0 0 900 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#201f29"/>
+      <stop offset="50%" stop-color="#3c3a4a"/>
+      <stop offset="100%" stop-color="#201f29"/>
+    </linearGradient>
+    <radialGradient id="spark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c6fff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#7c6fff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c6fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="sblur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="9" width="900" height="2" fill="url(#line)"/>
+  <text x="450" y="15" text-anchor="middle" font-size="12" fill="#4a4858">◆</text>
+
+  <circle cy="10" r="13" fill="url(#spark)" filter="url(#sblur)">
+    <animate attributeName="cx" values="-20;920;-20" dur="9s" repeatCount="indefinite"/>
+  </circle>
+</svg>
