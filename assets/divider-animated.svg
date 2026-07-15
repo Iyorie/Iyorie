@@ -1,0 +1,39 @@
+<svg viewBox="0 0 900 26" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%"  stop-color="#E4C9DE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#D8B8DE"/>
+      <stop offset="100%" stop-color="#E4C9DE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="dotPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBAFD3" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FBAFD3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dotLav" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C7AEF2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C7AEF2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+    <symbol id="spark2" viewBox="-8 -8 16 16">
+      <path d="M0,-8 L1.8,-1.8 L8,0 L1.8,1.8 L0,8 L-1.8,1.8 L-8,0 L-1.8,-1.8 Z"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="12" width="900" height="2" fill="url(#line)"/>
+
+  <circle cy="13" r="10" fill="url(#dotPink)" filter="url(#soft)">
+    <animate attributeName="cx" values="-20;920" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="13" r="9" fill="url(#dotLav)" filter="url(#soft)">
+    <animate attributeName="cx" values="920;-20" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <use href="#spark2" x="424" y="6" width="14" height="14" fill="#F7B8D6">
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+  </use>
+  <use href="#spark2" x="464" y="6" width="12" height="12" fill="#D8C2F5">
+    <animate attributeName="opacity" values="0;1;0" dur="2.1s" begin="0.6s" repeatCount="indefinite"/>
+  </use>
+</svg>

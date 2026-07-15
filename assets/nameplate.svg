@@ -1,0 +1,84 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Iyorie.reverie — also goes by Cinn, Roblox developer in Luau and C++">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&amp;family=Quicksand:wght@500;600&amp;display=swap');
+      .script { font-family: 'Playfair Display', 'Georgia', serif; font-style: italic; }
+      .round  { font-family: 'Quicksand', 'Segoe UI', sans-serif; }
+    </style>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFEAF3"/>
+      <stop offset="50%" stop-color="#F6E3F6"/>
+      <stop offset="100%" stop-color="#E6E1FA"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFC2DE" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#FFC2DE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C6AEF2" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#C6AEF2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <clipPath id="round"><rect width="900" height="260" rx="24"/></clipPath>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#6B4A73"/>
+      <stop offset="42%" stop-color="#6B4A73"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="58%" stop-color="#6B4A73"/>
+      <stop offset="100%" stop-color="#6B4A73"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <symbol id="spark" viewBox="-8 -8 16 16">
+      <path d="M0,-8 L1.8,-1.8 L8,0 L1.8,1.8 L0,8 L-1.8,1.8 L-8,0 L-1.8,-1.8 Z"/>
+    </symbol>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <circle cx="110" cy="50" r="150" fill="url(#glow1)" filter="url(#blur)"/>
+    <circle cx="800" cy="220" r="170" fill="url(#glow2)" filter="url(#blur)"/>
+
+    <!-- drifting petals -->
+    <ellipse rx="9" ry="5" fill="#FBC7DC" opacity="0.8">
+      <animateMotion path="M120,-20 C140,60 90,150 130,280" dur="9s" begin="-1s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite" additive="sum"/>
+    </ellipse>
+    <ellipse rx="7" ry="4" fill="#D8C2F5" opacity="0.75">
+      <animateMotion path="M320,-20 C300,80 360,160 310,280" dur="11s" begin="-4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite" additive="sum"/>
+    </ellipse>
+    <ellipse rx="8" ry="4.5" fill="#FDE0C2" opacity="0.75">
+      <animateMotion path="M560,-20 C580,70 530,160 570,280" dur="10s" begin="-6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.5s" repeatCount="indefinite" additive="sum"/>
+    </ellipse>
+    <ellipse rx="7" ry="4" fill="#F7B8D6" opacity="0.7">
+      <animateMotion path="M760,-20 C740,90 800,150 750,280" dur="12s" begin="-2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6.5s" repeatCount="indefinite" additive="sum"/>
+    </ellipse>
+
+    <!-- twinkling sparkles -->
+    <use href="#spark" x="63" y="43" width="14" height="14" fill="#FFD3E9"><animate attributeName="opacity" values="0;1;0" dur="2.1s" begin="0s" repeatCount="indefinite"/></use>
+    <use href="#spark" x="815" y="33" width="12" height="12" fill="#E4D2FA"><animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0.5s" repeatCount="indefinite"/></use>
+    <use href="#spark" x="55" y="203" width="10" height="10" fill="#E4D2FA"><animate attributeName="opacity" values="0;1;0" dur="1.9s" begin="1s" repeatCount="indefinite"/></use>
+    <use href="#spark" x="838" y="188" width="13" height="13" fill="#FFD3E9"><animate attributeName="opacity" values="0;1;0" dur="2.3s" begin="1.4s" repeatCount="indefinite"/></use>
+    <use href="#spark" x="150" y="130" width="9" height="9" fill="#FFFFFF"><animate attributeName="opacity" values="0;0.9;0" dur="2.6s" begin="0.8s" repeatCount="indefinite"/></use>
+    <use href="#spark" x="748" y="120" width="9" height="9" fill="#FFFFFF"><animate attributeName="opacity" values="0;0.9;0" dur="2.7s" begin="1.8s" repeatCount="indefinite"/></use>
+
+    <!-- title -->
+    <text x="450" y="140" text-anchor="middle" class="script" font-size="58" fill="url(#shine)">Iyorie.reverie</text>
+    <text x="450" y="178" text-anchor="middle" class="round" font-size="18" fill="#8C7098">also goes by Cinn ⋆ Roblox developer, Luau &amp; C++</text>
+
+    <!-- pulsing heart -->
+    <g transform="translate(450,206)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="1.3s" repeatCount="indefinite"/>
+        <path d="M0,4 C-7,-5 -19,-1 -19,8 C-19,17 0,27 0,27 C0,27 19,17 19,8 C19,-1 7,-5 0,4 Z" fill="#F49BC1"/>
+      </g>
+    </g>
+  </g>
+</svg>
