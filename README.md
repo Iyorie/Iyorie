@@ -8,8 +8,9 @@
   <img src="assets/welcome.png" width="240" alt="welcome!">
 </p>
 
-<h1 align="center">Iyorie.reverie</h1>
-<p align="center"><i>also goes by Cinn ⋆ Roblox developer, Luau &amp; C++</i></p>
+<p align="center">
+  <img src="assets/nameplate.svg" width="100%" alt="Iyorie.reverie — also goes by Cinn, Roblox developer in Luau and C++">
+</p>
 
 <p align="center">
   <a href="#skills">skills</a> ⋆
@@ -20,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider-swirl.png" width="70%" alt="">
+  <img src="assets/divider-animated.svg" width="70%" alt="">
 </p>
 
 <p align="center">
@@ -115,8 +116,7 @@ no. if that changes, contact me on discord.
 </p>
 
 <p align="center">
-  <img src="assets/divider-star.png" width="60%" alt="">
+  <img src="assets/divider-animated.svg" width="70%" alt="">
 </p>
-
 <p align="center"><sub>Iyorie.reverie ⋆ Cinn ⋆ Roblox Developer</sub></p>
 <p align="center"><sub><a href="#top">↑ back to top</a></sub></p>
