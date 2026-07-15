@@ -1,97 +1,122 @@
 <a name="top"></a>
 
-<img src="assets/banner.svg" alt="Iyorie.reverie — Roblox Developer, Luau and C++" width="100%">
-
-`Roblox Developer` · `Luau` · `C++, on purpose`
-
-[skills](#skills) · [stack](#stack) · [about](#about) · [faq](#faq) · [reach](#reach)
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-I build things as a hobby,, usually complex projects I get way too excited about and then scrap right after finishing. Still a perfectionist about it. Nothing really feels "done."
-
-<br>
-
-<h3 id="stack">◆ stack</h3>
-
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Lua](https://img.shields.io/badge/-Luau-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Roblox](https://img.shields.io/badge/-Roblox%20Studio-000000?style=flat-square&logo=roblox&logoColor=white)
-
-```luau
-local dev = {
-    name   = "Iyorie.reverie",
-    role   = "Roblox Developer",
-    stack  = { "Luau", "C++", "JavaScript", "???" },
-    status = "luvluvsz.. zzz",
-}
-
-return dev
-```
-
-<br>
-
-<h3 id="skills">◆ skills</h3>
-
-|  |  |
-|---|---|
-| **Gameplay systems** | core mechanics, clean architecture, wide accessibility across the board |
-| **Performance tuning** | optimize that, optimize there, debug everything and you're done |
-| **UI/UX in Studio** | still inexperienced, but I can bring something to the table |
-| **Tooling** | tooling? hell no |
-| **Cross-language experiments** | currently in C++, on purpose, comparing how I solve the same problems outside Luau |
-
-<sub>[↑ back to top](#top)</sub>
-
-<br>
-
-<h3 id="about">◆ about</h3>
-
-Roblox developer working in Luau, poking at C++ on purpose lately, just to compare how the same problem feels outside my main stack. i love tutels btw.
-
-<br>
-
-<h3 id="faq">◆ faq, kind of</h3>
-
-<details>
-<summary>what do you build in Roblox?</summary>
-<br>
-Usually, for hobbies, I challenge myself with complex but cool-looking projects. Then I scrap everything after. lol.
-</details>
-
-<details>
-<summary>why step outside Roblox?</summary>
-<br>
-Roblox's pretty boring these days. If you see me in a game, hi.
-</details>
-
-<details>
-<summary>what are you learning next?</summary>
-<br>
-Haven't decided yet. We'll see.
-</details>
-
-<details>
-<summary>open to collabs or hiring?</summary>
-<br>
-No. If that changes, contact me on Discord.
-</details>
-
-<sub>[↑ back to top](#top)</sub>
-
-<br>
-
-<h3 id="reach">◆ reach</h3>
-
-coding since 2022 · [Discord](https://discordapp.com/users/963993136168849418) `._math.asin` · [Roblox](https://www.roblox.com/users/5300801005/profile)
-
-<sub>status: <!--STATUS:START-->luvluvsz.. zzz<!--STATUS:END--></sub>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
 <p align="center">
-  <img src="assets/character.png" width="420" alt="">
+  <img src="assets/hero.jpg" width="100%" alt="pink flowers and a glass teacup in soft window light">
 </p>
 
-<sub>lyorie.nihil x Cinn ★ Roblox Developer</sub>
+<p align="center">
+  <img src="assets/welcome.png" width="240" alt="welcome!">
+</p>
+
+<h1 align="center">Iyorie.reverie</h1>
+<p align="center"><i>also goes by Cinn ⋆ Roblox developer, Luau &amp; C++</i></p>
+
+<p align="center">
+  <a href="#skills">skills</a> ⋆
+  <a href="#stack">stack</a> ⋆
+  <a href="#about">about</a> ⋆
+  <a href="#faq">faq</a> ⋆
+  <a href="#reach">reach</a>
+</p>
+
+<p align="center">
+  <img src="assets/divider-swirl.png" width="70%" alt="">
+</p>
+
+<p align="center">
+i build things as a hobby,, usually complex projects i get way too excited about and then scrap right after finishing. still a perfectionist about it. nothing really feels "done."
+</p>
+
+<p align="center">
+  <img src="assets/divider-star.png" width="60%" alt="">
+</p>
+
+<h3 id="skills" align="center">˚⋆｡ skills ｡⋆˚</h3>
+
+- ♡ **gameplay systems** — core mechanics, clean architecture, wide accessibility across the board
+- ♡ **performance tuning** — optimize that, optimize there, debug everything and you're done
+- ♡ **UI/UX in studio** — still inexperienced, but i can bring something to the table
+- ♡ **tooling** — tooling? hell no
+- ♡ **cross-language experiments** — currently in C++, on purpose, comparing how i solve the same problems outside luau
+
+<p align="center">
+  <img src="assets/divider-star.png" width="60%" alt="">
+</p>
+
+<h3 id="stack" align="center">˚⋆｡ stack ｡⋆˚</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-C++-F6A6C1?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/-Luau-C9A6F6?style=flat-square&logo=lua&logoColor=white" alt="Luau">
+  <img src="https://img.shields.io/badge/-JavaScript-F6E6A6?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/-Roblox%20Studio-A6C9F6?style=flat-square&logo=roblox&logoColor=white" alt="Roblox Studio">
+</p>
+
+> name — Iyorie.reverie
+> role — Roblox Developer
+> stack — Luau · C++ · JavaScript · ???
+> status — <!--STATUS:START-->luvluvsz.. zzz<!--STATUS:END-->
+
+<p align="center">
+  <img src="assets/divider-swirl.png" width="70%" alt="">
+</p>
+
+<h3 id="about" align="center">˚⋆｡ about ｡⋆˚</h3>
+
+<p align="center">
+roblox developer working in luau, poking at c++ on purpose lately, just to compare how the same problem feels outside my main stack. i love tutels btw.
+</p>
+
+<p align="center">
+  <img src="assets/divider-star.png" width="60%" alt="">
+</p>
+
+<h3 id="faq" align="center">˚⋆｡ faq, kind of ｡⋆˚</h3>
+
+<details>
+<summary>♡ what do you build in roblox?</summary>
+<br>
+usually, for hobbies, i challenge myself with complex but cool-looking projects. then i scrap everything after. lol.
+</details>
+
+<details>
+<summary>♡ why step outside roblox?</summary>
+<br>
+roblox's pretty boring these days. if you see me in a game, hi.
+</details>
+
+<details>
+<summary>♡ what are you learning next?</summary>
+<br>
+haven't decided yet. we'll see.
+</details>
+
+<details>
+<summary>♡ open to collabs or hiring?</summary>
+<br>
+no. if that changes, contact me on discord.
+</details>
+
+<p align="center">
+  <img src="assets/divider-swirl.png" width="70%" alt="">
+</p>
+
+<h3 id="reach" align="center">˚⋆｡ reach ｡⋆˚</h3>
+
+<p align="center">
+  <img src="assets/notice.png" width="130" alt="">
+</p>
+
+<p align="center">
+  coding since 2022 ⋆
+  <a href="https://discordapp.com/users/963993136168849418"><img src="https://img.shields.io/badge/-Discord-F6A6C1?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
+  <code>._math.asin</code> ⋆
+  <a href="https://www.roblox.com/users/5300801005/profile"><img src="https://img.shields.io/badge/-Roblox-C9A6F6?style=flat-square&logo=roblox&logoColor=white" alt="Roblox"></a>
+</p>
+
+<p align="center">
+  <img src="assets/divider-star.png" width="60%" alt="">
+</p>
+
+<p align="center"><sub>Iyorie.reverie ⋆ Cinn ⋆ Roblox Developer</sub></p>
+<p align="center"><sub><a href="#top">↑ back to top</a></sub></p>
